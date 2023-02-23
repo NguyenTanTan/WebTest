@@ -1,0 +1,24 @@
+
+.flex-header {
+  padding: auto;
+  display: flex;
+  position: sticky;
+  text-align: center;
+  background-color: rgb(250, 215, 244);
+  height: 80px;
+  line-height: 80px;
+}
+
+.flex-body {
+  display:flex ;
+  padding: auto;
+  justify-content: space-around;
+  background-color: antiquewhite;
+}
+
+.flex-body > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
