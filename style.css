@@ -1,24 +1,38 @@
 
+div{
+  padding: 10px 20px 30px 5px;
+  box-shadow: 150px;
+}
+b {
+  font-size: 50px;
+  font-style: inherit;
+}
+
 .flex-header {
+  justify-content: center;
   padding: auto;
   display: flex;
-  position: sticky;
-  text-align: center;
-  background-color: rgb(250, 215, 244);
-  height: 80px;
-  line-height: 80px;
+  background-color: rgb(216, 220, 191);
+  height: 100;
+  line-height: 300px;
 }
 
 .flex-body {
   display:flex ;
   padding: auto;
   justify-content: space-around;
-  background-color: antiquewhite;
+  background-color: rgb(195, 210, 221);
 }
 
 .flex-body > div {
-  background-color: #f1f1f1;
+  background-color: #dfafcf;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
+}
+.img-style {
+  float:left;
+  max-width: 400px;
+  height: auto;
+  
 }
