@@ -12,7 +12,7 @@ b {
   justify-content: center;
   padding: auto;
   display: flex;
-  background-color: rgb(216, 220, 191);
+ 
   height: 100;
   line-height: 300px;
 }
@@ -21,11 +21,11 @@ b {
   display:flex ;
   padding: auto;
   justify-content: space-around;
-  background-color: rgb(195, 210, 221);
+ 
 }
 
 .flex-body > div {
-  background-color: #dfafcf;
+ 
   margin: 10px;
   padding: 20px;
   font-size: 30px;
