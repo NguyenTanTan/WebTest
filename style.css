@@ -9,38 +9,8 @@ div{
 }
 img{
   width: 100%;
+  padding: 2px;
 }
-h1 {
-  text-align: center;
-  font-style:inherit;
-  font-size: 48px;
-}
-h2{
-  text-align: center;
-  font-style:oblique;
-  font-size: xx-large;
-}
-h3{
-  text-align: center;
-  font-style:unset ;
-  font-size: 30px;
-}
-footer{
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 0;
-  width: 100%;
-  height: 30px;
-}
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
 span{
   background-color: black;
   color: white;
@@ -48,25 +18,114 @@ span{
 p{
   font-size: x-large;
 }
-.heading{
-  margin: 30px auto;
+b{
+  font-style:oblique ;
 }
-.content{
-  display: flex;
+
+
+@media screen and (min-width: 1000px) {
+  .content{
+    display: flex;
+  }
+  h1 {
+    text-align: center;
+    font-style:inherit;
+    font-size: 48px;
+  }
+  h2{
+    text-align: center;
+    font-style:oblique;
+    font-size: xx-large;
+  }
+  h3{
+    text-align: center;
+    font-style:unset ;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+  }
+  footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    height: 30px;
+  }
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .heading{
+    margin: 30px auto;
+  }
+  .left{
+      width: 66.66%;
+      height: auto;}
+  .right{
+    width: 33.33%;
+    height: auto;
+  }
+  .mystory{
+    background-color:rgba(238, 236, 236, 0.982);
+    padding: auto;
+    margin: 20px;
+  }
+  .storyleft, .storyright {
+    width: 49.99999%;
 }
-.left{
-    width: 66.66%;
-    height: auto;}
-.right{
-  width: 33.33%;
-  height: auto;
 }
-.mystory{
-  background-color:rgba(238, 236, 236, 0.982);
-  padding: auto;
-  margin: 10px;
-}
-.storyleft, .storyright {
-  width: 49.99999%;
+@media screen and (max-width:999px) {
+  h1 {
+    text-align: center;
+    font-style:inherit;
+    font: size 48px;
+  }
+  h2{
+    text-align: center;
+    font-style:oblique;
+    font-size: x-large;
+  }
+  h3{
+    text-align: center;
+    font-style:unset ;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+  }
+  footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    height: 20px;
+  }
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .heading{
+    margin: 5px auto;
+  }
+  .left, .right{
+      width: 100%;
+      height: auto;}
+  
+  }
+  .mystory{
+    background-color:rgba(238, 236, 236, 0.982);
+    padding: auto;
+    margin: 10px;
+  }
+  .storyleft, .storyright {
+    width: 100%;
+  }
 }
 
