@@ -1,13 +1,15 @@
 * {margin: 0;padding: 4px;box-sizing: border-box;}
 div{display: block;}
 body{padding: 10px;}
-span{background-color: black;color: white;}
-p{font-size: x-large;}
+.spantitle{background-color: black;color: white;}
 b{font-style:oblique ;}
 img{width: 100%;padding: 0px;}
-/* .imgalbum{width: 33.33%;}
-.cntalbum{width: 66.66%;} */
-
+.imgleft{float: left;}
+li{border-bottom: 1px #ddd; list-style-type: none;}
+.padding-li {
+  padding-top: 16px!important;
+  padding-bottom: 16px!important;
+}
 @media screen and (min-width: 1000px) {
   h1 {text-align: center;font-style:inherit;font-size: 48px;}
   h2{text-align: center;font-style:oblique;font-size: xx-large;}
@@ -32,6 +34,4 @@ img{width: 100%;padding: 0px;}
   .mystory{background-color:rgba(238, 236, 236, 0.982);padding: auto;margin: 10px;}
   .storyleft, .storyright {width: 100%;}
 }
-/* @media screen and (max-width:200px){
-  .imgalbum,.cntalbum{width: 100%}
-} */
+
