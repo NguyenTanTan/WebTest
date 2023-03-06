@@ -11,11 +11,11 @@ li{border-bottom: 1px #ddd; list-style-type: none;}
   padding-bottom: 16px!important;
 }
 @media screen and (min-width: 1000px) {
-  h1 {text-align: center;font-style:inherit;font-size: 48px;}
-  h2{text-align: center;font-style:oblique;font-size: xx-large;}
+  h1 {text-align: center;font-style:inherit;font-size: 4vw;}
+  h2{text-align: center;font-style:oblique;font-size: 2vw;}
   footer{background-color: black;color: white;text-align: center;padding: 10px;width: 100%;height: 100%;}
-  p {display: block;margin-block-start: 1em;margin-block-end: 1em;margin-inline-start: 0px;margin-inline-end: 0px;}
-  .pstory{text-align: center; font-style:unset ;font-size: 30px;background-color: black;color: white;}
+  p {display: block;font-size:1.5vw ;margin-block-start: 1em;margin-block-end: 1em;margin-inline-start: 0px;margin-inline-end: 0px;}
+  .pstory{text-align: center; font-style:unset ;font-size: 3vw;background-color: black;color: white;}
   .content{display: flex;}
   .heading{margin: 30px auto;}
   .left{width: 66.66%;height: auto;}
@@ -24,11 +24,11 @@ li{border-bottom: 1px #ddd; list-style-type: none;}
   .storyleft, .storyright {width: 49.99999%;}
 }
 @media screen and (max-width:999px) {
-  h1 {text-align: center;font-style:inherit; font: size 48px;}
-  h2 {text-align: center;font-style:oblique;font-size: x-large;}
+  h1 {text-align: center;font-style:inherit; font-size:  4vw;}
+  h2 {text-align: center;font-style:oblique;font-size: 2vw;}
   footer{background-color: black;color: white;text-align: center;padding: 10px;width: 100%;height:100%;}
-  p{display: block;margin-block-start: 1em;margin-block-end: 1em;margin-inline-start: 0px;margin-inline-end: 0px;}
-  .pstory{text-align: center; font-style:unset ;font-size: 30px;background-color: black;color: white;}
+  p{display: block;font-size: 2vw;margin-block-start: 1em;margin-block-end: 1em;margin-inline-start: 0px;margin-inline-end: 0px;}
+  .pstory{text-align: center; font-style:unset ;font-size: 3vw;background-color: black;color: white;}
   .heading{margin: 5px auto;  }
   .left, .right{width: 100%;height: auto;}
   .mystory{background-color:rgba(238, 236, 236, 0.982);padding: auto;margin: 10px;}

@@ -1,0 +1,5 @@
+.top {border-style:solid; border-color: rgb(255, 0, 195); position: sticky;height: 50px; width: 100%;}
+.content {display:flex;border-style:solid; border-color: rgb(143, 117, 12)}
+.left {border-style:solid; border-color: red; width: 30%;}
+.mid {border-style:solid; border-color: rgb(8, 0, 255); width: 50%;}
+.right {border-style:solid; border-color: rgb(116, 212, 71); width: 20%;}
