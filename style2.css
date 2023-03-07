@@ -1,5 +1,10 @@
-.top {border-style:solid; border-color: rgb(255, 0, 195); position: sticky;height: 50px; width: 100%;}
-.content {display:flex;border-style:solid; border-color: rgb(143, 117, 12)}
+.top {border-style:solid; border-color: rgb(255, 0, 195); position: fixed; top:0; height: 50px; width: 100%;}
+.content {display:flex;padding-top:80px ;border-style:solid; border-color: rgb(143, 117, 12);}
 .left {border-style:solid; border-color: red; width: 30%;}
 .mid {border-style:solid; border-color: rgb(8, 0, 255); width: 50%;}
 .right {border-style:solid; border-color: rgb(116, 212, 71); width: 20%;}
+.avtcenter{text-align: center;}
+.text{margin: 10px;}
+.button-content{display: block;}
+.button-card{width: 100%;padding: 8px 10px;border: none;background-color: rgb(95, 168, 172);text-align: left; color: aliceblue;}
+.shadow {box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%)}
